@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Test</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700,700i" rel="stylesheet">
+  <link rel="stylesheet" media="screen" href="css/style.css">
+</head>
+<body>
+
+	<header class="clearfix">
+		<div class="left-side">
+			<ul>
+				<li><a class="list" href="#"></a></li>
+				<li><a class="small-search" href="#"></a></li>
+			</ul>
+		</div>
+		<div class="logo">
+			<a href="/">
+				<img src="img/logo.jpg" alt="">
+			</a>
+			<h1>
+				BFrow
+			</h1>
+		</div>
+		<div class="right-side">
+				<a class="register" href="#">register /</a> 
+				<a class="login" href="#">login</a>
+		</div>	
+	</header>
+
+	<div class="main">
+		<div class="center-wrapper">
+			<div class="wrapper-search">
+				
+				<div class="search-block">
+
+						<div class="search-block__placeholder">
+							Search anytime by typing
+						</div>	
+
+						<div class="search-block__search-field-wrapper">
+							<div class="search-block__search-mask">
+								my search autoc<span><i> </i>omplite</span>
+							</div>
+							<input id="search-field" type="text" class="search-block__search-field">
+						</div>
+
+						<div class="no-result"> No results... </div>
+				</div>
+
+				<div class="search-block__content" id="search-wrapper">
+					<div class="search-block__content-wrapper">
+						<h2 class="search-block__content-title">Posts:</h2>
+						<ul class="search-content search-block__search-posts" id="search-posts">
+							<!-- content generate -->
+						</ul>
+					</div>
+
+							
+					<div class="search-block__content-wrapper">
+						<h2 class="search-block__content-title">Blogers:</h2>
+						<ul class="search-content search-block__search-blogers" id="search-blogers">
+							<!-- content generate -->
+						</ul>
+					</div>
+					<div class="search-block__content-wrapper">
+						<h2 class="search-block__content-title">#Tags:</h2>
+						<ul class="search-content search-block__search-tags" id="search-tags">	
+							<!-- content generate -->
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/main.js"></script>
+</body>
+</html>
